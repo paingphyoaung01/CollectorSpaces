@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/two_color_screen_layout"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/upload2"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You need to Upload your"
+        android:layout_gravity="center"
+        android:textColor="#FFF"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update File"
+        android:textSize="23sp"
+        android:textColor="#FFF"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="7dp" />
+
+    <TextView
+        android:id="@+id/txt_file_picker"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textColor="#FFF"
+        android:text=""
+        android:textSize="16sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="40dp"
+        />
+    <Button
+        android:id="@+id/btn_file_picker"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:text="File Choose"
+        android:backgroundTint="#f79d34"
+        android:textColor="#FFF"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/btn_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="Upload"
+        android:background="#162a53"
+        android:textColor="#FFF"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version 1.0"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="45dp"
+        />
+
+<!--    <Button-->
+<!--        android:id="@+id/btn_download"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:text="Download file"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/txt_download"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center_horizontal"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:textSize="16sp"-->
+<!--        android:text=""-->
+<!--        />-->
+</LinearLayout>
